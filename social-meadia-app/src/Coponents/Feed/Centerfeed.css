@@ -2,3 +2,31 @@
     flex:6;
 
 }
+.center-feed-container{
+    background-color: #e8e8fa;
+    height: calc(100vh - 50px);
+}
+.centerfeed-wrapper{
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+    border-radius: 8px;
+}
+.centerbarfriend{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-left: 10px;
+}
+.centersearchtext{
+    margin: 5px;
+    border:none;
+    width: 95%;
+}
+.centersearchtext:focus{
+    outline: none;
+}
+.post-container{
+    /* background-color: red; */
+}
