@@ -9,10 +9,12 @@ const Centerfeed = () => {
         <input placeholder='What is in your mind...?' className='centersearchtext'/>
         <hr className='shareHr'/>
         </div>
-        {/* <div className='post-container'>
-        <img className='centerbarfriend' src={person} alt=''/>
-        </div> */}
-
+        <div className='center-feed-content-container'>
+          
+        </div>
+        <div className='center-feed-content-container'>
+         
+        </div>
     </div>
   )
 }

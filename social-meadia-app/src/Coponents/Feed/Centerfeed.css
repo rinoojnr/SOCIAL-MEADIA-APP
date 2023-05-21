@@ -1,5 +1,5 @@
 .center-feed-container{
-    flex:6;
+    flex:10;
 
 }
 .center-feed-container{
@@ -18,6 +18,7 @@
         border-radius: 50%;
         object-fit: cover;
         margin-left: 10px;
+        
 }
 .centersearchtext{
     margin: 5px;
@@ -27,6 +28,23 @@
 .centersearchtext:focus{
     outline: none;
 }
-.post-container{
-    /* background-color: red; */
+.center-feed-content-container{
+    background-color:white;
+    margin: 20px;
+    border-radius: 8px;
+    height:calc(69vh - 50px)
+}
+.center-feed-container{
+    flex:3;
+    height:calc(100vh - 50px);
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+   background-color: red
+}
+::-webkit-scrollbar-thumb{
+    background-color: green;
 }
